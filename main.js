@@ -23,10 +23,14 @@ const newDiv = document.querySelector('#main-btn')
 
 // console.log(newDiv)
 
-const button = document.getElementById('#main-btn')
+const button = document.querySelector('#main-btn')
 
-const whatIsTheId = ()=> {
-    console.log("you clicked me");
-}
+button.addEventListener('click', () => {
+    console.log("You clicked me!");
+})
 
-button.addEventListener(click, whatIsTheId)
+// const whatIsTheId = (e) => {
+
+// }
+
+
